@@ -3,178 +3,34 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Renan Bastos - Developer Full-Stack and Mobile</title>
+	<title>Renan Bastos - Developer Full-Stack and Mobile! </title>
 
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
 	<!-- Optional theme -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
-	<!-- Latest compiled and minified JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<!-- My Styles -->
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="modal.css">
 
-	<style>
-		#myImg {
-			border-radius: 5px;
-			cursor: pointer;
-			transition: 0.3s;
-		}
-
-		#myImg:hover {opacity: 0.7;}
-
-		/* The Modal (background) */
-		.modal {
-			display: none; /* Hidden by default */
-			position: fixed; /* Stay in place */
-			z-index: 1; /* Sit on top */
-			padding-top: 100px; /* Location of the box */
-			left: 0;
-			top: 0;
-			width: 100%; /* Full width */
-			height: 100%; /* Full height */
-			overflow: auto; /* Enable scroll if needed */
-			background-color: rgb(0,0,0); /* Fallback color */
-			background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
-		}
-
-		/* Modal Content (image) */
-		.modal-content {
-			margin: auto;
-			display: block;
-			width: 80%;
-			max-width: 700px;
-		}
-
-		/* Caption of Modal Image */
-		#caption {
-			margin: auto;
-			display: block;
-			width: 80%;
-			max-width: 700px;
-			text-align: center;
-			color: #ccc;
-			padding: 10px 0;
-			height: 150px;
-		}
-
-		/* Add Animation */
-		.modal-content, #caption {
-			-webkit-animation-name: zoom;
-			-webkit-animation-duration: 0.6s;
-			animation-name: zoom;
-			animation-duration: 0.6s;
-		}
-
-		@-webkit-keyframes zoom {
-			from {-webkit-transform:scale(0)}
-			to {-webkit-transform:scale(1)}
-		}
-
-		@keyframes zoom {
-			from {transform:scale(0)}
-			to {transform:scale(1)}
-		}
-
-		/* The Close Button */
-		span.closeA {
-			position: absolute;
-			top: 15px;
-			right: 35px;
-			color: #fff;
-			font-size: 60px;
-			font-weight: bold;
-			transition: 0.3s;
-			opacity: 100%;
-			filter: alpha(opacity=100);
-		}
-
-		.closeA:hover,
-		.closeA:focus {
-			color: #bbb;
-			text-decoration: none;
-			cursor: pointer;
-			opacity: 50%;
-			filter: alpha(opacity=50);
-			color: #fff;
-		}
-
-		/* 100% Image Width on Smaller Screens */
-		@media only screen and (max-width: 700px){
-			.modal-content {
-				width: 100%;
-			}
-		}
-	</style>
-	<style>
-		*{
-			margin: 0 auto;
-			padding: 0 auto;
-			font-size: 26px;
-		}
-		body{
-			background-color: #f9f9f9;
-		}
-		.avatar{
-			max-width: 470px;
-			margin-top: 3em;
-		}
-		.title{
-			margin-top: 5%;
-			font-size: 2.7em;
-		}
-		.footer{
-			font-size: 1.5em;
-		}
-		p.icon{
-			margin-top: 1em;
-		}
-		i{
-			font-size: 1em;
-		}
-		hr{
-			height: 2px;
-			background: #333; 
-		}
-		a{
-			color: #333;
-		}
-		a:hover{
-			color: #6666FF;
-			text-decoration: none;
-		}
-		@media screen and (min-width: 640px){
-			.avatar{
-				max-width: 250px;
-			}
-		}
-	</style>
 </head>
 <body>
 	<header>
 		<img id="myImg_1" src="eu.jpg" alt="" class="img-responsive img-circle avatar" style="cursor: pointer;">
-		<h1 class="title text-center">
-			Renan Bastos
-		</h1>
+		<h1 class="title text-center" content-id='name'><h1>
 		<section class="text-center">
 			<div class="row">
 				<p class="icon">
 					<a href="https://www.facebook.com/renan.bastos.925">
-						<i class="fa fa-facebook">
-							&nbsp;/renan.bastos.925
-						</i>
+						<i class="fa fa-facebook" content-id='facebook'></i>
 					</a>&nbsp;
 					<a href="https://github.com/renanbastos93">
-						<i class="fa fa-github"> 
-							&nbsp;@renanbastos93
-						</i>
+						<i class="fa fa-github" content-id='github'></i>
 					</a>&nbsp;
 					<a href="https://twitter.com/renanbastos93">
-						<i class="fa fa-twitter">
-							&nbsp;@renanbastos93
-						</i>  
+						<i class="fa fa-twitter" content-id='twitter'></i>  
 					</a>
 				</p> 
 			</div>
@@ -183,48 +39,16 @@
 	</header>
 	<div id="myModal" class="modal" style="display: none;">
 		<span class="glyphicon glyphicon-remove closeA"></span>
-		<img class="modal-content" id="img01" src="eu.jpeg">
+		<img class="modal-content" id="img01" src="eu.jpg">
 		<div id="caption"></div>
 	</div>
-	<footer class="footer navbar-fixed-bottom text-center">
-		All rights reserved.
-	</footer>
-	<script>
-		var modal = document.getElementById('myModal');
-		var modalImg = document.getElementById("img01");
-		var captionText = document.getElementById("caption");
 
-		var imgs = Array.prototype.slice.call(document.querySelectorAll('img'));
+	<section class="text-center" content-id="bibliography" margin-top></section>
 
-		imgs.forEach(function(info){
-			if(info.id){
-				if(info.id.split('_')[0] == "myImg"){
-					var my = info;
-					my.onclick = function(){
-						modal.style.display = "block";
-						modalImg.src = this.src;
-						captionText.innerHTML = this.alt;
-					};
-				}
-			};
-
-		});
-
-	// Get the <span> element that closes the modal
-	var span = document.getElementsByClassName("closeA")[0];
-
-	// When the user clicks on <span> (x), close the modal
-	span.onclick = function() {
-		modal.style.display = "none";
-	};
-
-	window.addEventListener('keydown', function(e){
-		if(modal.style.display != "none"){
-			if(e.keyCode == 27){
-				modal.style.display = "none";
-			}
-		}	
-	});
-</script>
+	<footer class="footer text-center" content-id='reserved' margin-top></footer>
+	
+	<!-- My Scripts -->
+	<script src="content.js"></script>
+	<script src="modal.js"></script>
 </body>
 </html>
