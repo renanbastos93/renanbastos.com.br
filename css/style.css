@@ -23,28 +23,37 @@ p.icon{
 i{
 	font-size: 1em;
 }
-hr{
-	height: 2px;
-	background: #333; 
+hr {
+  min-width:85%; 
+  background-color:#a1a1a1 !important; 
+  height:1px;
+
 }
 a{
 	color: #333;
+	text-decoration: none;
 }
 a:hover{
 	color: #6666FF;
 	text-decoration: none;
 }
+a:active{
+	text-decoration: none;
+}
+
+section{
+	max-width: 800px;
+}
+
 @media screen and (min-width: 640px){
 	.avatar{
 		max-width: 250px;
 	}
 }
-
 [margin-top]{
-	margin-top: 10%;
-	font-size: 1.8em;
-	letter-spacing: 1.2px;
+	margin-top: 7%;
 }
+
 footer[margin-top]{
 	font-size: 1.5em;
 

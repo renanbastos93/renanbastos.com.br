@@ -12,43 +12,46 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
 	<!-- My Styles -->
-	<link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" href="modal.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/modal.css">
 
 </head>
 <body>
-	<header>
-		<img id="myImg_1" src="eu.jpg" alt="" class="img-responsive img-circle avatar" style="cursor: pointer;">
+	<header class="row col-lg-12 col-md-12 col-sm-12 col-xs-12">
+		<img id="myImg_1" src="img/eu.jpg" alt="" class="img-responsive img-circle avatar" style="cursor: pointer;">
 		<h1 class="title text-center" content-id='name'><h1>
-		<section class="text-center">
-			<div class="row">
-				<p class="icon">
-					<a href="https://www.facebook.com/renan.bastos.925">
-						<i class="fa fa-facebook" content-id='facebook'></i>
-					</a>&nbsp;
-					<a href="https://github.com/renanbastos93">
-						<i class="fa fa-github" content-id='github'></i>
-					</a>&nbsp;
-					<a href="https://twitter.com/renanbastos93">
-						<i class="fa fa-twitter" content-id='twitter'></i>  
-					</a>
-				</p> 
-			</div>
+			<section class="text-center">
+				<div class="row">
+					<p class="icon">
+						<a href="https://www.facebook.com/renan.bastos.925">
+							<i class="fa fa-facebook" content-id='facebook'></i>
+						</a>&nbsp;
+						<a href="https://github.com/renanbastos93">
+							<i class="fa fa-github" content-id='github'></i>
+						</a>&nbsp;
+						<a href="https://twitter.com/renanbastos93">
+							<i class="fa fa-twitter" content-id='twitter'></i>  
+						</a>
+					</p> 
+				</div>
+			</section>
+		</header>
+		<hr>
+		<div id="myModal" class="modal" style="display: none;">
+			<span class="glyphicon glyphicon-remove closeA"></span>
+			<img class="modal-content" id="img01" src="eu.jpg">
+			<div id="caption"></div>
+		</div>
+
+		<section id="#aboutMe" class="container">
+
+			<p class="row col-lg-12 col-md-12 col-sm-12 col-xs-12 text-justify" content-id="bibliography" margin-top></p>
+
 		</section>
-		<hr>	
-	</header>
-	<div id="myModal" class="modal" style="display: none;">
-		<span class="glyphicon glyphicon-remove closeA"></span>
-		<img class="modal-content" id="img01" src="eu.jpg">
-		<div id="caption"></div>
-	</div>
+		<footer class="footer text-center row col-lg-12 col-md-12 col-sm-12 col-xs-12" content-id='reserved' margin-top></footer>
 
-	<section class="text-center" content-id="bibliography" margin-top></section>
-
-	<footer class="footer text-center" content-id='reserved' margin-top></footer>
-	
-	<!-- My Scripts -->
-	<script src="content.js"></script>
-	<script src="modal.js"></script>
-</body>
-</html>
+		<!-- My Scripts -->
+		<script src="js/content.js"></script>
+		<script src="js/modal.js"></script>
+	</body>
+	</html>
