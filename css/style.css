@@ -17,11 +17,11 @@ body{
 .footer{
 	font-size: 1.5em;
 }
-p.icon{
-	margin-top: 1em;
+p.icon>a{
+	font-size: 35px;
 }
-i{
-	font-size: 1em;
+p.icon>a>i.icon-npm{
+	font-size: 50px;
 }
 hr {
   min-width:85%; 
@@ -57,4 +57,18 @@ section{
 footer[margin-top]{
 	font-size: 1.5em;
 
+}
+
+.fa-twitter:hover, .fa-twitter:active{
+	color:#29c5f6;
+}
+.fa-linkedin:hover, .fa-linkedin:active{
+	color: #006dc0;
+}
+.fa-facebook:hover, .fa-facebook:active{
+	color: #3b5997;
+}
+.icon-npm:hover, .icon-npm:active{
+	font-size: 100px;
+	color: #cb3837;
 }

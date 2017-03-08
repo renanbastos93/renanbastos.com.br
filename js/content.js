@@ -2,7 +2,9 @@
 	'use strict';
 
 	const RenanContent = document.querySelectorAll('[content-id]');
-	const language = navigator.language || 'en-US';
+	const lan = document.querySelectorAll('#language');
+
+	const language = (navigator.language || window.navigator.language) || 'en-US';
 	const content = {
 		'pt-BR': {
 			'name'			: 'Renan Bastos',
@@ -23,12 +25,36 @@
 		}
 	};
 
-	RenanContent.forEach((item) => {
-		for(let id in content[language]){
-			if(item.getAttribute('content-id') == id){
-				item.innerHTML = content[language][id];
+	function refreshLanguage(lang){
+		setLanguage(lang);
+	};
+
+	function setLanguage(language){
+		RenanContent.forEach((item) => {
+			for(let id in content[language]){
+				if(item.getAttribute('content-id') == id){
+					item.innerHTML = content[language][id];
+				}
 			}
-		}
-	});
+		});
+	};
+
+	function selectLanguage(item){
+		return item.value == language;
+	};
+
+	setLanguage(language);
+
+	lan.forEach((current) => {
+		current.onchange = function(){
+			refreshLanguage(this.options[this.selectedIndex].value);
+			// console.log(this.options[this.selectedIndex].value)
+		};
+		let options = Array.prototype.slice.call(current.options)
+		options = options.filter(selectLanguage);
+		options.forEach((item) => {
+			current.selectedIndex = item.index;
+		})
+	})
 
 })();
