@@ -25,10 +25,6 @@
 		}
 	};
 
-	function refreshLanguage(lang){
-		setLanguage(lang);
-	};
-
 	function setLanguage(language){
 		RenanContent.forEach((item) => {
 			for(let id in content[language]){
@@ -47,14 +43,8 @@
 
 	lan.forEach((current) => {
 		current.onchange = function(){
-			refreshLanguage(this.options[this.selectedIndex].value);
-			// console.log(this.options[this.selectedIndex].value)
+			setLanguage(this.options[this.selectedIndex].value);
 		};
-		let options = Array.prototype.slice.call(current.options)
-		options = options.filter(selectLanguage);
-		options.forEach((item) => {
-			current.selectedIndex = item.index;
-		})
-	})
+	});
 
 })();
