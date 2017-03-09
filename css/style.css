@@ -1,7 +1,17 @@
 *{
 	margin: 0 auto;
 	padding: 0 auto;
-	font-size: 26px;
+	font-size: 27px;
+    font-family: "Lato", sans-serif;
+    font-style: italic;
+    font-weight: 200;
+}
+h1{
+	font-weight: 300;
+}
+footer{
+	font-family: "Times new roman", sans-serif;
+	font-weight: 400;
 }
 body{
 	background-color: #f9f9f9;
@@ -11,17 +21,11 @@ body{
 	margin-top: 3em;
 }
 .title{
-	margin-top: 5%;
+	margin-top: 1.5%;
 	font-size: 2.7em;
 }
 .footer{
 	font-size: 1.5em;
-}
-p.icon>a{
-	font-size: 35px;
-}
-p.icon>a>i.icon-npm{
-	font-size: 50px;
 }
 hr {
   min-width:85%; 
@@ -69,6 +73,8 @@ footer[margin-top]{
 	color: #3b5997;
 }
 .icon-npm:hover, .icon-npm:active{
-	font-size: 100px;
 	color: #cb3837;
+}
+.icon-npm{
+	font-size: 45px;
 }
