@@ -41,10 +41,16 @@
 
 	setLanguage(language);
 
-	lan.forEach((current) => {
+	lan.forEach((current, index) => {
 		current.onchange = function(){
 			setLanguage(this.options[this.selectedIndex].value);
 		};
+		let options = Array.prototype.slice.call(current.options)
+ 		options = options.filter(selectLanguage);
+ 		options.forEach((item) => {
+ 			current.selectedIndex = item.index;
+ 		});
+		
 	});
 
 })();
