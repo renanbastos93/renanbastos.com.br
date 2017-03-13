@@ -61,9 +61,10 @@
 
 /* The Close Button */
 span.closeA {
+	z-index: 1;
 	position: absolute;
-	top: 15px;
-	right: 35px;
+	top: 70px;
+	right: 244px;
 	color: #fff;
 	font-size: 60px;
 	font-weight: bold;
