@@ -12,7 +12,7 @@
 			'twitter'		: '&nbsp;renanbastos93',
 			'facebook'		: '&nbsp;renanbastos93',
 			'reserved'		: 'Todos direitos reservados',
-			'bibliography' 	: 'Amante de tecnologias, inovação e empreendedorismo. Procuro sempre aprender coisas novas todos os dias. Hoje trabalho com "JavaScript" em tempo integral sendo "Full-Stack". Tenho alguns projetos no meu GitHub, sendo três projetos publicados no "NPM Packages".'
+			'bibliography' 	: 'Adoro tecnologias, inovação e empreendedorismo. Eu sempre procuro aprender coisas novas todos os dias. Atualmente trabalhando com "JavaScript" sendo "Full-Stack", tenho alguns projetos no meu GitHub, todos eles são open source. Tenho também três módulos publicados no "Pacotes NPM".'
 
 		},
 		'en-US': {
@@ -21,7 +21,7 @@
 			'twitter'		: '&nbsp;renanbastos93',
 			'facebook'		: '&nbsp;renanbastos93',
 			'reserved'		: 'All rights reserved',
-			'bibliography' 	: 'I love technologies, innovation and entrepreneurship. I seek it ever learning, everyday, searching thing new for my learning. Currently working with "JavaScript" being "Full-Stack", I have some projects on my GitHub, every projects open source. I have Also three modules published on "NPM Packages".'
+			'bibliography' 	: 'I love technologies, innovation and entrepreneurship. I always seek to learn new things everyday. Currently working with "JavaScript" being "Full-Stack", I have some projects on my GitHub, all of them are open source. I have Also three modules published on "NPM Packages".'
 		}
 	};
 

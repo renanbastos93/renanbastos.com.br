@@ -10,6 +10,7 @@
 
  	var openPage = new Date().getTime();
  	var openTemp;
+ 	var acumulate = 0;
 
     function onchange(evt) {
 
@@ -26,14 +27,17 @@
         if (evt.type in evtMap) evtMap[evt.type] ? functionVisible() : functionHidden();
         else this[hidden] ? functionHidden() : functionVisible();
         console.log('Temp open: ', openTemp);
+        console.log('temp acumulate: ', acumulate);
     }
 
     function functionVisible() {
+    	openPage = new Date().getTime();
         console.log('Visible');
     }
 
     function functionHidden() {
 	 	openTemp = ((new Date().getTime()) - openPage)/1000;
+	 	acumulate += openTemp;
         console.log('Hidden');
     }
 })();
