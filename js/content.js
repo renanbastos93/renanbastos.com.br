@@ -10,7 +10,7 @@
 			'name'			: 'Renan Bastos',
 			'github'		: '&nbsp;renanbastos93',
 			'twitter'		: '&nbsp;renanbastos93',
-			'facebook'		: '&nbsp;renan.bastos.925',
+			'facebook'		: '&nbsp;renanbastos93',
 			'reserved'		: 'Todos direitos reservados',
 			'bibliography' 	: 'Sou apaixonado por tecnologias, inovação e empreendedorismo. Busco sempre estar aprendendo cada dia mais, buscando coisas novas e inovando.'
 
@@ -19,11 +19,12 @@
 			'name'			: 'Renan Bastos',
 			'github'		: '&nbsp;renanbastos93',
 			'twitter'		: '&nbsp;renanbastos93',
-			'facebook'		: '&nbsp;renan.bastos.925',
+			'facebook'		: '&nbsp;renanbastos93',
 			'reserved'		: 'All right reserved',
-			'bibliography' 	: 'I am passionate about technologies, innovation and entrepreneurship. I always seek to be learning every day more, searching for new things and innovating'
+			'bibliography' 	: 'I love technologies, innovation and entrepreneurship. I seek it ever learning, everyday, searching thing new for my learning.'
 		}
 	};
+
 
 	function setLanguage(language){
 		RenanContent.forEach((item) => {
