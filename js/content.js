@@ -12,7 +12,7 @@
 			'twitter'		: '&nbsp;renanbastos93',
 			'facebook'		: '&nbsp;renanbastos93',
 			'reserved'		: 'Todos direitos reservados',
-			'bibliography' 	: 'Adoro tecnologias, inovação e empreendedorismo. Eu sempre procuro aprender coisas novas todos os dias. Atualmente trabalhando com "JavaScript" sendo "Full-Stack", tenho alguns projetos no meu GitHub, todos eles são open source. Tenho também três módulos publicados no "Pacotes NPM".'
+			'bibliography' 	: 'Adoro tecnologias, inovação e empreendedorismo,	também estou sempre buscando aprender coisas novas.	Atualmente trabalho como "Full-Stack JavaScript", possuo alguns projetos no meu GitHub, eles são open source.	Tenho também três módulos publicados no "NPM Packages".'
 
 		},
 		'en-US': {
@@ -21,7 +21,7 @@
 			'twitter'		: '&nbsp;renanbastos93',
 			'facebook'		: '&nbsp;renanbastos93',
 			'reserved'		: 'All rights reserved',
-			'bibliography' 	: 'I love technologies, innovation and entrepreneurship. I always seek to learn new things everyday. Currently working with "JavaScript" being "Full-Stack", I have some projects on my GitHub, all of them are open source. I have also three modules published on "NPM Packages".'
+			'bibliography' 	: 'I love technologies, innovation and entrepreneurship. I\'m always seeking to learn new things. I am currently working as a Full-Stack JavaScript Developer, I have some projects on my GitHub, all of them are open source. I also have three modules published on NPM Packages.'
 		}
 	};
 
@@ -55,3 +55,18 @@
 	});
 
 })();
+
+
+/*  Bibliography
+	I love technologies, innovation and entrepreneurship. 
+	I'm always seeking to learn new things. 
+	I am currently working as a Full-Stack JavaScript Developer, 
+	I have some projects on my GitHub, all of them are open source. 
+	I also have three modules published on NPM Packages.
+
+	Adoro tecnologias, inovação e empreendedorismo,
+	também estou sempre buscando aprender coisas novas.
+	Atualmente trabalho como "Full-Stack JavaScript",
+	possuo alguns projetos no meu GitHub, eles são open source.
+	Tenho também três módulos publicados no "NPM Packages".
+*/
