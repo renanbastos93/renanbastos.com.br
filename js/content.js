@@ -12,7 +12,7 @@
 			'twitter'		: '&nbsp;renanbastos93',
 			'facebook'		: '&nbsp;renanbastos93',
 			'reserved'		: 'Todos direitos reservados',
-			'bibliography' 	: 'Adoro tecnologias, inovação e empreendedorismo,	também estou sempre buscando aprender coisas novas.	Atualmente trabalho como "Full-Stack JavaScript", possuo alguns projetos no meu GitHub, eles são open source.	Tenho também três módulos publicados no "NPM Packages".'
+			'bibliography' 	: 'Adoro tecnologias, inovação e empreendedorismo. Atualmente trabalho como Developer Full-Stack JavaScript, mas estou sempre buscando aprender coisas novas. Possuo alguns projetos open source no GitHub e três módulos publicados no NPM Packages.'
 
 		},
 		'en-US': {
@@ -21,7 +21,7 @@
 			'twitter'		: '&nbsp;renanbastos93',
 			'facebook'		: '&nbsp;renanbastos93',
 			'reserved'		: 'All rights reserved',
-			'bibliography' 	: 'I love technologies, innovation and entrepreneurship. I\'m always seeking to learn new things. I am currently working as a Full-Stack JavaScript Developer, I have some projects on my GitHub, all of them are open source. I also have three modules published on NPM Packages.'
+			'bibliography' 	: 'I love technologies, innovation and entrepreneurship. I\'m currently working as a Full-Stack JavaScript Developer, but I\'m always seeking to learn new things. I have some open source projects in my GitHub, and three modules published on NPM Packages.'
 		}
 	};
 
@@ -59,14 +59,12 @@
 
 /*  Bibliography
 	I love technologies, innovation and entrepreneurship. 
-	I'm always seeking to learn new things. 
-	I am currently working as a Full-Stack JavaScript Developer, 
-	I have some projects on my GitHub, all of them are open source. 
-	I also have three modules published on NPM Packages.
+	I'm currently working as a Full-Stack JavaScript Developer, but I'm always seeking to learn new things.
+	I have some open source projects in my GitHub, and three modules published on NPM Packages.
 
-	Adoro tecnologias, inovação e empreendedorismo,
-	também estou sempre buscando aprender coisas novas.
-	Atualmente trabalho como "Full-Stack JavaScript",
-	possuo alguns projetos no meu GitHub, eles são open source.
-	Tenho também três módulos publicados no "NPM Packages".
+	Adoro tecnologias, inovação e empreendedorismo.
+	Atualmente trabalho como Developer Full-Stack JavaScript, 
+	mas estou sempre buscando aprender coisas novas.
+	Possuo alguns projetos open source no GitHub e três módulos publicados no NPM Packages.
 */
+
