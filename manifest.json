@@ -1,0 +1,21 @@
+{
+    "name": "Renan Bastos",
+    "short_name": "@renanbastos93",
+    "start_url": "./",
+    "dir": "ltr", 
+    "lang": "pt-BR",
+    "background_color": "#f9f9f9", 
+    "theme_color": "#f9f9f9",
+    "description": "Desenvolvedor de Sistemas - FullStack JavaScript!",
+    "display": "standalone",
+    "icons": [{
+        "src": "img/eu.jpg",
+        "sizes": "48x48",
+        "type": "image/jpg"
+    },{
+        "src": "img/eu.jpg",
+        "sizes": "512x512",
+        "type": "image/jpg"
+    }]
+
+}

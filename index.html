@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -40,6 +40,25 @@
 	<link rel="stylesheet" href="css/font-mfizz.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/modal.css">
+	<meta name="theme-color" content="#f9f9f9">
+	<link rel="manifest" href="/manifest.json">
+	 <script>
+            if('serviceWorker' in navigator){
+                navigator
+                .serviceWorker
+                .register('/sw.js')
+                .then(
+                    registry => {
+                        console.log('Registry with success', registry.scope);
+                    }
+                )
+                .catch(
+                    err => {
+                        console.log('Ops, error the registry service worker')
+                    }
+                )
+            }
+        </script>
 
 </head>
 <body>
@@ -79,7 +98,7 @@
 	<hr>
 	<div id="myModal" class="modal" style="display: none;">
 		<span class="glyphicon glyphicon-remove closeA"></span>
-		<img class="modal-content" id="img01" src="eu.jpg">
+		<img class="modal-content" id="img01" src="/img/eu.jpg">
 		<div id="caption"></div>
 	</div>
 
@@ -93,6 +112,6 @@
 	<!-- My Scripts -->
 	<script src="js/content.js"></script>
 	<script src="js/modal.js"></script>
-	<script src="js/temp.js"></script>
+	<!-- <script src="js/temp.js"></script> -->
 </body>
 </html>
