@@ -1,0 +1,57 @@
+header > div.content {
+    display: flex;
+    height: calc(100vh - 4rem);
+}
+
+.presentation {
+    width: 100%;
+    background: radial-gradient(ellipse at bottom, #1b2735 0%, #121e29 100%);
+    position: relative;
+}
+
+.about{
+    color: #ecf0f1;
+    font-size: 3.5rem;
+    font-weight: 300;
+    font-style: italic;
+    margin: auto;
+    text-align: center;
+}
+
+.about:hover {
+    opacity: 0.8;
+}
+
+.about > .name {
+    color: #f39c12;
+    font-weight: 400;
+}
+  
+.icons{
+    padding-top: 2rem;
+}
+
+.about > .icons > li {
+    display: inline-flex;
+}
+
+.icons > li, a {
+    padding-right: 1rem;
+    color: #ecf0f1;
+}
+
+a:hover {
+    opacity: .1;
+}
+
+footer > .reserve{
+    height: 100px;
+    background: radial-gradient(ellipse at bottom, #1b2735 0%, #121e29 100%);
+}
+
+ .text{
+    color: #ecf0f1;
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 1rem
+}
